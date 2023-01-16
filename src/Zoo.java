@@ -12,6 +12,9 @@ public class Zoo {
 
         //moveAnimals(bird);
 
+        Flyable flyingBird = new Bird("Pigeon", 15, "M", 20);
+        flyingBird.fly();
+
         Animal[] animals = {cat, bird, tiger};
 
 //        cat.move();
